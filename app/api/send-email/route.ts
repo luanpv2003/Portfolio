@@ -148,7 +148,7 @@ Reply directly to this email to respond to ${name}.
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
-        Authorization: `Bearer re_RV3ztTr7_8XWGy9jLEHnkcTNzYnhcsa8Q`,
+        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(emailData),
