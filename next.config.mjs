@@ -9,7 +9,14 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  devIndicators: false
+  devIndicators: false,
+  experimental: {
+    // nodeMiddleware: true,
+    optimizeCss: true,
+    turbo: {
+      resolveExtensions: ['.mdx', '.tsx', '.ts', '.jsx', '.js', '.json'],
+    },
+  },
 }
 
 export default nextConfig

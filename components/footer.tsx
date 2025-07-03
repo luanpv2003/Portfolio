@@ -48,7 +48,7 @@ export function Footer() {
 
           <div className="border-t border-gray-700 pt-8">
             <p className="text-gray-400 flex items-center justify-center">
-              © 2024 Phan Van Luan. Made with <Heart className="w-4 h-4 mx-2 text-red-400" /> and lots of coffee
+              © 2025 Phan Van Luan. Made with
             </p>
           </div>
         </div>
