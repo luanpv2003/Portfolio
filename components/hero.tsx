@@ -60,12 +60,15 @@ export function Hero() {
                   Get In Touch
                 </Button>
                 <Button
+                  asChild
                   variant="outline"
                   size="lg"
                   className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300 bg-transparent"
                 >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download CV
+                  <a href="/pdf/CV-Phan_Van_Luan.pdf" download="CV-Phan_Van_Luan.pdf">
+                    <Download className="w-4 h-4 mr-2" />
+                    Download CV
+                  </a>
                 </Button>
               </div>
             </ScrollReveal>
